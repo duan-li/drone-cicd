@@ -36,6 +36,7 @@ RUN apk add --update php7 \
 	php7-bz2 \
 	php7-posix \
 	php7-phar \
+	composer \
 	&& rm -rf /var/cache/apk/*
 
 
